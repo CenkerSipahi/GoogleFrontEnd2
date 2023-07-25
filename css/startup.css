@@ -1,0 +1,251 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headerdaki uygulamalar resmi için */
+.appsbutton {
+    width:15px;
+    height:15px;
+    margin-top:10px;
+    opacity: 0.75;
+}
+/* Headerdaki uygulamalar resminin üstüne imleç gelince */
+.appsbutton:hover{
+    opacity: 1;
+}
+
+header {
+    font-size: 13px;
+    margin-top:12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div+a{
+    text-decoration: none;
+}
+
+div+a:hover {
+    text-decoration: underline;
+}
+
+/* Yazılar için */
+.textcolor1 {
+    color: #000;
+    opacity: 0.75;
+}
+
+/* Headerdaki Sign in için */
+.signinbutton {
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    border: 1px solid #4285f4;
+    background-color: cornflowerblue;
+    border-radius: 2px;
+    width:69.34px;
+    height:30px;
+    text-align: center;
+    margin-left:15px;
+    margin-right:15px;
+    padding:0;
+    -webkit-box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.1); 
+    box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.1);
+}
+
+.signinbutton:hover {
+    background: -webkit-linear-gradient(top,#1f6ef7,#0b56d8);
+}
+
+.signintext {
+    color:white;
+    font-weight: bold;
+    line-height:30px;
+}
+
+.signintext:hover {
+    text-decoration: none;
+}
+
+/* Tepedeki itemleri yatay hizaya getirmek için */
+.items {
+    display:inline-block;
+    padding-left:15px;
+}
+
+.float-right {
+    float:right;
+}
+
+/* Tepedeki itemleri yerleştirmek için */
+
+.topitems {
+    margin-top:10px;
+}
+
+.googlelogo {
+    margin-top:200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* Arama kutucuğundaki input etiketi için */
+.searchbarl {
+    width:450px;
+    height:36px;
+    outline:none;
+}
+
+/* Genel input etiketi silici */
+input {
+    border:0;
+}
+
+/* Arama kutucuğu */
+.searchbar {
+    border: 0.5px;
+    border-style: solid;
+    border-color:rgb(156, 156, 156);
+    border-radius: 25px;
+    width:515px;
+    margin:20px auto;
+}
+
+/* Arama kutucuğuna gelince gölge efekti */
+.searchbar:hover {
+    -webkit-box-shadow: 0px 2px 9px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 2px 9px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 9px 5px rgba(0,0,0,0.15);
+}
+
+/* Arama kutucuğundaki büyüteç */
+.searchlogo {
+    float:left;
+    margin-left:3px;
+    margin-top:3px;
+    width:25px;
+    height:25px;
+    opacity: 0.75;
+}
+
+/* Alttaki iki butonu ortalamak için */
+.buttonsplacer {
+    margin-top:25px;
+    width:480px;
+    height:100px;
+    padding-left: 160px;
+}
+
+/* Birinci Buton */
+.centerbutton1 {
+    background-color: #f2f2f2;
+    height:26px;
+    width:150px;
+    text-decoration: none;
+    float:left;
+    margin:5px;
+    padding-top:7.3px;
+    border-radius: 5px;
+}
+
+/* İkinci Buton */
+.centerbutton2 {
+    background-color: #f2f2f2;
+    height:26px;
+    width:150px;
+    text-decoration: none;
+    float:left;
+    margin:5px;
+    padding-top:7.3px;
+    border-radius: 5px;
+}
+
+/* Birinci buton animasyonu */
+.centerbutton1:hover {
+    border: 0.5px;
+    width:149px;
+    height:25px;
+    border-style: solid;
+    border-color:rgb(156, 156, 156);
+    opacity: 1;
+    -webkit-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.1);
+}
+/* İkinci buton animasyonu */
+.centerbutton2:hover {
+    border: 0.5px;
+    width:149px;
+    height:25px;
+    border-style: solid;
+    border-color:rgb(156, 156, 156);
+    opacity: 1;
+    -webkit-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 5px 3px 5px 0px rgba(0,0,0,0.1);
+}
+
+/* Buton yazıları için */
+.buttontexts {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    opacity: 0.75;
+    font-size: 14px;
+    text-align: center;
+}
+/* Footerdaki tüm yazılar */
+.footertexts{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    opacity: 0.75;
+    font-size: 14px;
+    display:inline-block;
+}
+/* Footerın solundaki yazılar */
+.footerlefttexts {
+    padding-left:15px;
+    text-align:left;
+    float:left;
+}
+/* Footerın sağındaki yazılar */
+.footerrighttexts {
+    padding-right:15px;
+    text-align:right;
+    float:right;
+}
+/* Footerdaki yazıları sola atmak için */
+.footerleft{
+    position: absolute;
+    left:0px;
+    display:inline-block;
+}
+/* Footerdaki yazıları sağa atmak için */
+.footerright {
+    position: absolute;
+    right:0px;
+    display:inline-block;
+}
+/* Footer kısmındaki yazıların rengi için */
+.footertextcolor {
+    color:#000;
+    opacity: 0.75;
+}
+/* Footer kısmını zemine yapıştırmak için */
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 99.9%;
+    overflow:hidden;
+    border:0.01px;
+    border-style:solid;
+    border-color: #bebebe;
+    background-color: #f2f2f2;
+    height:40px;
+}
